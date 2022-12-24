@@ -1,0 +1,148 @@
+/* Styling of Filter feature  */
+
+ body{
+    font-family: sans-serif;
+    background: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+ }
+
+h1{
+    color: #fff;
+    margin-left: 27px;
+
+}
+.dropdown{
+
+    min-width: 6em;
+    position: relative;
+    margin: 2em;
+    border: 1px white solid;
+
+
+}
+#dropdown *{
+    box-sizing: border-box;
+}
+.select{
+    background:black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px black solid;
+    font-size: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.select:hover{
+    background: #323741;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 50px;
+    border-color: black;
+    font-size: 16px;
+}
+
+body #btn{
+    margin-left: 25px;
+    margin:22px;
+}
+
+.employeeItem{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid white;
+    border-radius: 9px;
+    padding: 15px ;
+    margin: 25px;
+}
+.employeeItem span{
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* Styling of add new User */
+
+#heading{
+     margin: 60px;
+     margin-left: 20px;
+    }
+
+    
+.form {
+   
+    width:49%;
+    color: white;
+    width: 100%;
+    margin: 10px ;
+    box-sizing: border-box;
+}
+
+.form .fields{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+.form label{
+    display:inline-block;
+    width: 250px;
+    margin-bottom:14px;
+}
+
+#name{
+    
+    width: 400px;
+    height:30px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 4px;
+    margin:1px;
+    padding:10px;
+}
+#proff{
+    
+    width: 400px;
+    height:30px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 4px;
+    margin:1px;
+    padding:10px;
+}
+#age{
+    
+    width: 400px;
+    height:30px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 4px;
+    margin:1px;
+    padding:12px;
+} 
+
+#button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:15px 50px;
+    font-size:16px;
+    border-color: black;
+    margin-top:19px;
+    margin-left: 18px;
+}
